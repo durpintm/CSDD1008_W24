@@ -3,10 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	printName("Durpin Thapa Magar")
-	echo();
-	secondEcho("This is from second echo");
-	concatStr("Hello", "World!");
+	// printName("Durpin Thapa Magar")
+	// echo();
+	// secondEcho("This is from second echo");
+	// concatStr("Hello", "World!");
+	
+		fmt.Println(GenerateRandomNumber())
+
 }
 
 func printName(name string) {
